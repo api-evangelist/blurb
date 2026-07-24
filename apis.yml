@@ -1,7 +1,30 @@
 aid: blurb
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blurb.png
 name: Blurb
-description: Blurb is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blurb is an online self-publishing and print-on-demand platform that lets
+  photographers, designers, businesses, and creative storytellers design, print,
+  and distribute their own books, magazines, notebooks, and wall art. Founded in
+  2005 and headquartered in San Francisco, Blurb provides desktop and web design
+  tools (BookWright, Bookify, and plugins for Adobe InDesign and Lightroom)
+  alongside professional in-house printing, global fulfillment, and distribution
+  through its own bookstore, Amazon, and Ingram. Blurb also offers a RESTful
+  print-on-demand API — powered by its RPI Print fulfillment infrastructure — so
+  businesses can programmatically submit print orders, upload print-ready PDFs,
+  and receive real-time order tracking and fulfillment updates. It was surfaced
+  as a portfolio company of Canaan Partners and enriched in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/blurb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,74 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Publishing
+- Printing
+- Print on Demand
+- Books
+- Self Publishing
+- Photo Books
+- Fulfillment
+- E-commerce
+- API
+apis:
+- name: Blurb Print API
+  description: >-
+    RESTful print-on-demand API that lets businesses integrate Blurb's book,
+    magazine, and notebook printing and fulfillment into their own platforms.
+    Orders and real-time fulfillment updates are handled through Blurb's RPI
+    Print infrastructure; the developer documentation and self-service sandbox
+    are hosted on the RPI Print developer surface.
+  humanURL: https://www.blurb.com/print-api-software
+  baseURL: https://api.rpiprint.com
+  properties:
+  - type: Documentation
+    url: https://docs.api.rpiprint.com/documentation/first-request
+  - type: GettingStarted
+    url: https://docs.api.rpiprint.com/documentation/first-request
+  - type: DeveloperPortal
+    url: https://www.blurb.com/print-api-software
+  - type: SignUp
+    url: https://api.rpiprint.com/
+  tags:
+  - Print on Demand
+  - Printing
+  - Fulfillment
+  - Books
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/blurb-domain-security.yml
+- type: Website
+  url: https://www.blurb.com/
+- type: DeveloperPortal
+  url: https://www.blurb.com/print-api-software
+- type: Documentation
+  url: https://docs.api.rpiprint.com/documentation/first-request
+- type: GettingStarted
+  url: https://docs.api.rpiprint.com/documentation/first-request
+- type: Pricing
+  url: https://www.blurb.com/pricing
+- type: Support
+  url: https://support.blurb.com/hc/en-us
+- type: Blog
+  url: https://www.blurb.com/blog/
+- type: SignUp
+  url: https://www.blurb.com/my/account/register
+- type: Login
+  url: https://www.blurb.com/my/account/login
+- type: TermsOfService
+  url: https://www.blurb.com/terms
+- type: PrivacyPolicy
+  url: https://www.blurb.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
