@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blurb is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Blurb is an online self-publishing and print-on-demand platform that lets photographers, designers, businesses, and creative storytellers design, print, and distribute their own books, magazines, notebooks, and wall art. Founded in 2005 and headquartered in San Francisco, Blurb provides desktop and web design tools (BookWright, Bookify, and plugins for Adobe InDesign and Lightroom) alongside professional in-house printing, global fulfillment, and distribution through its own bookstore, Amazon, and Ingram. Blurb also offers a RESTful print-on-demand API — powered by its RPI Print fulfillment infrastructure — so businesses can programmatically submit print orders, upload print-ready PDFs, and receive real-time order tracking and fulfillment updates. It was surfaced as a portfolio company of Canaan Partners and enriched in the API Evangelist network.
 
-Backed by: canaan-partners
+**Areas:** Company · Publishing · Printing · Print on Demand · Books · Self-Publishing · Photo Books · Fulfillment · E-Commerce
+
+## Blurb on APIs.io
+
+Everything profiled for Blurb is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blurb/](https://apis.io/providers/blurb/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Blurb Print API](https://apis.io/apis/blurb/blurb-print-api/) — RESTful print-on-demand API that lets businesses integrate Blurb's book, magazine, and notebook printing and fulfillment into their own platforms. Orders…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blurb Domain Security](https://apis.io/security/blurb/blurb-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.blurb.com/)
+- [Documentation](https://docs.api.rpiprint.com/documentation/first-request)
+- [Getting started](https://docs.api.rpiprint.com/documentation/first-request)
+- [Pricing](https://www.blurb.com/pricing)
+- [Sign up](https://www.blurb.com/my/account/register)
+- [Support](https://support.blurb.com/hc/en-us)
+- [Blog](https://www.blurb.com/blog/)
+- [Terms of service](https://www.blurb.com/terms)
+- [Privacy policy](https://www.blurb.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 23.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blurb/](https://apis.io/providers/blurb/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blurb: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blurb/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
